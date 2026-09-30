@@ -1,0 +1,83 @@
+--- a/android/src/main/java/org/maplibre/reactnative/components/mapview/MLRNMapViewModule.kt
++++ b/android/src/main/java/org/maplibre/reactnative/components/mapview/MLRNMapViewModule.kt
+@@ -23,8 +23,11 @@
+     }
+ 
+     override fun initialize() {
++        android.util.Log.i("REPRO", "MapViewModule.initialize() on ${Thread.currentThread().name}: posting MapLibre.getInstance to the UI queue")
+         reactApplicationContext.runOnUiQueueThread {
++            android.util.Log.i("REPRO", "MapLibre.getInstance START on ${Thread.currentThread().name}")
+             MapLibre.getInstance(reactApplicationContext.applicationContext)
++            android.util.Log.i("REPRO", "MapLibre.getInstance DONE on ${Thread.currentThread().name}")
+         }
+     }
+ 
+--- a/android/src/main/java/org/maplibre/reactnative/modules/MLRNOfflineModule.kt
++++ b/android/src/main/java/org/maplibre/reactnative/modules/MLRNOfflineModule.kt
+@@ -38,8 +38,36 @@
+ 
+     private val regions = HashMap<String, OfflineRegion>()
+ 
++    @Volatile private var reproAmbientDone = false
++
++    // REPRO watchdog: if setMaximumAmbientCacheSize has not called back after
++    // 6 s, dump every thread's stack so a hang shows who is waiting on whom.
++    private fun startReproWatchdog() {
++        val t = Thread({
++            try {
++                Thread.sleep(6000)
++            } catch (e: InterruptedException) {
++                return@Thread
++            }
++            if (reproAmbientDone) {
++                Log.i("REPRO", "watchdog: ambient cache callback already fired, no dump needed")
++                return@Thread
++            }
++            Log.i("REPRO", "watchdog: NO ambient cache callback after 6 s, dumping all threads")
++            for ((th, st) in Thread.getAllStackTraces()) {
++                Log.i("REPRO_DUMP", "\"${th.name}\" tid=${th.id} state=${th.state}")
++                for (e in st) Log.i("REPRO_DUMP", "    at $e")
++            }
++        }, "repro-watchdog")
++        t.isDaemon = true
++        t.start()
++    }
++
+     override fun initialize() {
++        startReproWatchdog()
++        Log.i("REPRO", "OfflineModule.initialize() on ${Thread.currentThread().name}: posting runMigrations to the main looper")
+         Handler(Looper.getMainLooper()).post {
++            Log.i("REPRO", "runMigrations START on ${Thread.currentThread().name}")
+             runMigrations()
+         }
+     }
+@@ -147,16 +175,21 @@
+         size: Double,
+         promise: Promise,
+     ) {
++        Log.i("REPRO", "setMaximumAmbientCacheSize on ${Thread.currentThread().name}")
+         activateFileSource()
+         val offlineManager = OfflineManager.getInstance(context)
+         offlineManager.setMaximumAmbientCacheSize(
+             size.toLong(),
+             object : OfflineManager.FileSourceCallback {
+                 override fun onSuccess() {
++                    reproAmbientDone = true
++                    Log.i("REPRO", "setMaximumAmbientCacheSize onSuccess on ${Thread.currentThread().name}")
+                     promise.resolve(null)
+                 }
+ 
+                 override fun onError(message: String) {
++                    reproAmbientDone = true
++                    Log.i("REPRO", "setMaximumAmbientCacheSize onError: $message")
+                     promise.reject("setMaximumAmbientCacheSize", message)
+                 }
+             },
+@@ -409,6 +442,7 @@
+     }
+ 
+     override fun setTileCountLimit(limit: Double) {
++        Log.i("REPRO", "setTileCountLimit on ${Thread.currentThread().name}")
+         val offlineManager = OfflineManager.getInstance(context)
+         offlineManager.setOfflineMapboxTileCountLimit(limit.toLong())
+     }

@@ -1,0 +1,9 @@
+--------- beginning of main
+09-30 15:05:26.540 10985 11012 I REPRO   : MapViewModule.initialize() on mqt_v_native: posting MapLibre.getInstance to the UI queue
+09-30 15:05:26.570 10985 10985 I REPRO   : MapLibre.getInstance START on main
+09-30 15:05:26.588 10985 10985 I REPRO   : MapLibre.getInstance DONE on main
+09-30 15:05:26.638 10985 11011 I REPRO   : OfflineModule.initialize() on mqt_v_js: posting runMigrations to the main looper
+09-30 15:05:26.639 10985 10985 I REPRO   : runMigrations START on main
+09-30 15:05:26.641 10985 11012 I REPRO   : setTileCountLimit on mqt_v_native
+09-30 15:05:26.661 10985 11012 I REPRO   : setMaximumAmbientCacheSize on mqt_v_native
+09-30 15:05:26.673 10985 10985 I REPRO   : setMaximumAmbientCacheSize onSuccess on main

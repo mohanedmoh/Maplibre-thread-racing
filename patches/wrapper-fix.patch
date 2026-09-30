@@ -1,0 +1,226 @@
+--- a/android/src/main/java/org/maplibre/reactnative/components/mapview/MLRNMapViewModule.kt
++++ b/android/src/main/java/org/maplibre/reactnative/components/mapview/MLRNMapViewModule.kt
+@@ -5,11 +5,11 @@
+ import com.facebook.react.bridge.ReactApplicationContext
+ import com.facebook.react.bridge.ReadableArray
+ import com.facebook.react.module.annotations.ReactModule
+-import org.maplibre.android.MapLibre
+ import org.maplibre.reactnative.NativeMapViewModuleSpec
+ import org.maplibre.reactnative.utils.ConvertUtils
+ import org.maplibre.reactnative.utils.ExpressionParser
+ import org.maplibre.reactnative.utils.GeoJSONUtils
++import org.maplibre.reactnative.utils.MapLibreInitializer
+ import org.maplibre.reactnative.utils.ReactTag
+ import org.maplibre.reactnative.utils.ReactTagResolver
+ 
+@@ -24,7 +24,7 @@
+ 
+     override fun initialize() {
+         reactApplicationContext.runOnUiQueueThread {
+-            MapLibre.getInstance(reactApplicationContext.applicationContext)
++            MapLibreInitializer.ensureInitialized(reactApplicationContext.applicationContext)
+         }
+     }
+ 
+--- a/android/src/main/java/org/maplibre/reactnative/modules/MLRNOfflineModule.kt
++++ b/android/src/main/java/org/maplibre/reactnative/modules/MLRNOfflineModule.kt
+@@ -21,6 +21,7 @@
+ import org.maplibre.android.storage.FileSource
+ import org.maplibre.reactnative.NativeOfflineModuleSpec
+ import org.maplibre.reactnative.utils.GeoJSONUtils
++import org.maplibre.reactnative.utils.MapLibreInitializer
+ import java.util.UUID
+ 
+ class MLRNOfflineModule(
+@@ -50,7 +51,7 @@
+         options: ReadableMap,
+         promise: Promise,
+     ) {
+-        val offlineManager = OfflineManager.getInstance(context)
++        val offlineManager = requireOfflineManager()
+ 
+         val packId = UUID.randomUUID().toString()
+         val latLngBounds = getBoundsFromOptions(options)
+@@ -92,7 +93,7 @@
+     override fun getPacks(promise: Promise) {
+         activateFileSource()
+ 
+-        val offlineManager = OfflineManager.getInstance(context)
++        val offlineManager = requireOfflineManager()
+ 
+         offlineManager.listOfflineRegions(
+             object : OfflineManager.ListOfflineRegionsCallback {
+@@ -113,7 +114,7 @@
+ 
+     override fun invalidateAmbientCache(promise: Promise) {
+         activateFileSource()
+-        val offlineManager = OfflineManager.getInstance(context)
++        val offlineManager = requireOfflineManager()
+         offlineManager.invalidateAmbientCache(
+             object : OfflineManager.FileSourceCallback {
+                 override fun onSuccess() {
+@@ -129,7 +130,7 @@
+ 
+     override fun clearAmbientCache(promise: Promise) {
+         activateFileSource()
+-        val offlineManager = OfflineManager.getInstance(context)
++        val offlineManager = requireOfflineManager()
+         offlineManager.clearAmbientCache(
+             object : OfflineManager.FileSourceCallback {
+                 override fun onSuccess() {
+@@ -148,7 +149,7 @@
+         promise: Promise,
+     ) {
+         activateFileSource()
+-        val offlineManager = OfflineManager.getInstance(context)
++        val offlineManager = requireOfflineManager()
+         offlineManager.setMaximumAmbientCacheSize(
+             size.toLong(),
+             object : OfflineManager.FileSourceCallback {
+@@ -165,7 +166,7 @@
+ 
+     override fun resetDatabase(promise: Promise) {
+         activateFileSource()
+-        val offlineManager = OfflineManager.getInstance(context)
++        val offlineManager = requireOfflineManager()
+         offlineManager.resetDatabase(
+             object : OfflineManager.FileSourceCallback {
+                 override fun onSuccess() {
+@@ -185,7 +186,7 @@
+         promise: Promise,
+     ) {
+         activateFileSource()
+-        val offlineManager = OfflineManager.getInstance(context)
++        val offlineManager = requireOfflineManager()
+ 
+         offlineManager.listOfflineRegions(
+             object : OfflineManager.ListOfflineRegionsCallback {
+@@ -227,7 +228,7 @@
+         promise: Promise,
+     ) {
+         activateFileSource()
+-        val offlineManager = OfflineManager.getInstance(context)
++        val offlineManager = requireOfflineManager()
+ 
+         offlineManager.listOfflineRegions(
+             object : OfflineManager.ListOfflineRegionsCallback {
+@@ -255,7 +256,7 @@
+         promise: Promise,
+     ) {
+         activateFileSource()
+-        val offlineManager = OfflineManager.getInstance(context)
++        val offlineManager = requireOfflineManager()
+ 
+         offlineManager.listOfflineRegions(
+             object : OfflineManager.ListOfflineRegionsCallback {
+@@ -293,7 +294,7 @@
+         promise: Promise,
+     ) {
+         activateFileSource()
+-        val offlineManager = OfflineManager.getInstance(context)
++        val offlineManager = requireOfflineManager()
+ 
+         offlineManager.listOfflineRegions(
+             object : OfflineManager.ListOfflineRegionsCallback {
+@@ -333,7 +334,7 @@
+         promise: Promise,
+     ) {
+         activateFileSource()
+-        val offlineManager = OfflineManager.getInstance(context)
++        val offlineManager = requireOfflineManager()
+ 
+         offlineManager.listOfflineRegions(
+             object : OfflineManager.ListOfflineRegionsCallback {
+@@ -363,7 +364,7 @@
+         promise: Promise,
+     ) {
+         activateFileSource()
+-        val offlineManager = OfflineManager.getInstance(context)
++        val offlineManager = requireOfflineManager()
+ 
+         offlineManager.listOfflineRegions(
+             object : OfflineManager.ListOfflineRegionsCallback {
+@@ -392,7 +393,7 @@
+         promise: Promise,
+     ) {
+         activateFileSource()
+-        val offlineManager = OfflineManager.getInstance(context)
++        val offlineManager = requireOfflineManager()
+ 
+         offlineManager.mergeOfflineRegions(
+             path,
+@@ -409,7 +410,7 @@
+     }
+ 
+     override fun setTileCountLimit(limit: Double) {
+-        val offlineManager = OfflineManager.getInstance(context)
++        val offlineManager = requireOfflineManager()
+         offlineManager.setOfflineMapboxTileCountLimit(limit.toLong())
+     }
+ 
+@@ -439,7 +440,7 @@
+ 
+     private fun runMigrations() {
+         activateFileSource()
+-        val offlineManager = OfflineManager.getInstance(context)
++        val offlineManager = requireOfflineManager()
+ 
+         offlineManager.listOfflineRegions(
+             object : OfflineManager.ListOfflineRegionsCallback {
+@@ -646,7 +647,13 @@
+         super.invalidate()
+     }
+ 
++    private fun requireOfflineManager(): OfflineManager {
++        MapLibreInitializer.ensureInitialized(context)
++        return OfflineManager.getInstance(context)
++    }
++
+     private fun activateFileSource() {
++        MapLibreInitializer.ensureInitialized(context)
+         val fileSource = FileSource.getInstance(context)
+         fileSource.activate()
+     }
+--- /dev/null
++++ b/android/src/main/java/org/maplibre/reactnative/utils/MapLibreInitializer.kt
+@@ -0,0 +1,40 @@
++package org.maplibre.reactnative.utils
++
++import android.content.Context
++import android.os.Handler
++import android.os.Looper
++import org.maplibre.android.MapLibre
++import java.util.concurrent.CountDownLatch
++
++/**
++ * Guarantees that MapLibre.getInstance has completed before anything touches
++ * FileSource or OfflineManager.
++ *
++ * MapLibre.getInstance must run on the main thread, and it is what makes
++ * MapLibre.validateMapLibre() pass and what loads libmaplibre.so. Callers on
++ * other threads (React Native's native modules thread) hop to the main thread
++ * and wait, so they can neither hit MapLibreConfigurationException nor start
++ * loading the native library concurrently with the main thread.
++ */
++object MapLibreInitializer {
++    private val initialized = CountDownLatch(1)
++
++    @JvmStatic
++    fun ensureInitialized(context: Context) {
++        if (initialized.count == 0L) return
++
++        if (Looper.myLooper() == Looper.getMainLooper()) {
++            initializeOnMainThread(context)
++        } else {
++            Handler(Looper.getMainLooper()).post { initializeOnMainThread(context) }
++            initialized.await()
++        }
++    }
++
++    private fun initializeOnMainThread(context: Context) {
++        if (initialized.count == 0L) return
++
++        MapLibre.getInstance(context.applicationContext)
++        initialized.countDown()
++    }
++}

@@ -1,0 +1,23 @@
+--------- beginning of crash
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: Process: com.maplibrestartuprepro, PID: 10131
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: org.maplibre.android.exceptions.MapLibreConfigurationException: 
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: Using MapView requires calling MapLibre.getInstance(Context context, String apiKey, WellKnownTileServer wellKnownTileServer) before inflating or creating the view.
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at org.maplibre.android.MapLibre.validateMapLibre(MapLibre.java:261)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at org.maplibre.android.MapLibre.getTileServerOptions(MapLibre.java:164)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at org.maplibre.android.storage.FileSource.<init>(FileSource.java:348)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at org.maplibre.android.storage.FileSource.getInstance(FileSource.java:95)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at org.maplibre.android.offline.OfflineManager.<init>(OfflineManager.kt:133)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at org.maplibre.android.offline.OfflineManager.<init>(OfflineManager.kt:0)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at org.maplibre.android.offline.OfflineManager$Companion.getInstance(OfflineManager.kt:653)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at org.maplibre.reactnative.modules.MLRNOfflineModule.setTileCountLimit(MLRNOfflineModule.kt:412)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:1082)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:126)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:295)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:398)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+09-30 14:01:44.238 10131 10177 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1571)

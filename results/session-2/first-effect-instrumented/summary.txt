@@ -1,0 +1,28 @@
+round 1: CRASH [: round-1-crash.txt] | library-loaded -> offline-call margin: +2ms
+* daemon still not running
+- waiting for device -
+round 2: NO-ANSWER [no crash, no ANR, no offline reply in 15s] | library-loaded -> offline-call margin: +0ms
+round 3: OK(1s) | library-loaded -> offline-call margin: +31ms
+round 4: OK(1s) | library-loaded -> offline-call margin: +57ms
+round 5: HANG [LibraryLoader in thread dump: round-5-anr.txt] | library-loaded -> offline-call margin: -5ms
+round 6: OK(1s) | library-loaded -> offline-call margin: +40ms
+* daemon not running; starting now at tcp:5037
+could not read ok from ADB Server
+* failed to start daemon
+- waiting for device -
+error: cannot connect to daemon
+round 7: OK(1s) | library-loaded -> offline-call margin: +40ms
+round 8: OK(1s) | library-loaded -> offline-call margin: +13ms
+round 9: OK(1s) | library-loaded -> offline-call margin: +29ms
+round 10: OK(1s) | library-loaded -> offline-call margin: +6ms
+round 11: OK(1s) | library-loaded -> offline-call margin: +24ms
+round 12: OK(1s) | library-loaded -> offline-call margin: +26ms
+round 13: OK(1s) | library-loaded -> offline-call margin: +49ms
+round 14: NO-ANSWER [no crash, no ANR, no offline reply in 15s] | library-loaded -> offline-call margin: -89ms
+round 15: NO-ANSWER [no crash, no ANR, no offline reply in 15s] | library-loaded -> offline-call margin: -7ms
+round 16: OK(1s) | library-loaded -> offline-call margin: +8ms
+round 17: NO-ANSWER [no crash, no ANR, no offline reply in 15s] | library-loaded -> offline-call margin: -9ms
+round 18: OK(1s) | library-loaded -> offline-call margin: +27ms
+round 19: OK(1s) | library-loaded -> offline-call margin: +48ms
+round 20: OK(1s) | library-loaded -> offline-call margin: +34ms
+SUMMARY: ok=14 crash=1 hang/no-answer=5 of 20

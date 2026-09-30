@@ -1,0 +1,716 @@
+09-30 15:03:35.807  7864  7864 I libprocessgroup: Created cgroup /sys/fs/cgroup/apps/uid_10946
+09-30 15:03:35.807  7864  7864 I libprocessgroup: Created cgroup /sys/fs/cgroup/apps/uid_10946/pid_7864
+09-30 15:03:35.815  7864  7864 I Zygote  : Process 7864 created for com.maplibrestartuprepro
+09-30 15:03:35.815  7864  7864 I brestartuprepro: Using generational CollectorTypeCMC GC.
+09-30 15:03:35.841  7864  7864 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-30 15:03:35.885  7864  7864 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+09-30 15:03:35.885  7864  7864 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+09-30 15:03:35.896  7864  7864 D nativeloader: Configuring clns-9 for other apk /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/lib/arm64:/data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.maplibrestartuprepro
+09-30 15:03:35.907  7864  7864 D ActivityThread: Set OS env TMPDIR to /data/user/0/com.maplibrestartuprepro/cache
+09-30 15:03:35.911  7864  7864 V GraphicsEnvironment: Currently set values for:
+09-30 15:03:35.911  7864  7864 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[com.android.angle]
+09-30 15:03:35.911  7864  7864 V GraphicsEnvironment:   angle_gl_driver_selection_values=[angle]
+09-30 15:03:35.911  7864  7864 V GraphicsEnvironment: com.maplibrestartuprepro is not listed in per-application setting
+09-30 15:03:35.911  7864  7864 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+09-30 15:03:35.912  7864  7864 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+09-30 15:03:35.922  7864  7864 W SoLoader: Initializing SoLoader: 0
+09-30 15:03:35.922  7864  7864 W SoLoader: Recording new base apk path: /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk
+09-30 15:03:35.922  7864  7864 W SoLoader: Previously recorded 0 base apk paths.
+09-30 15:03:35.923  7864  7864 I SoLoader: Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
+09-30 15:03:35.923  7864  7864 I SoLoader: Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+09-30 15:03:35.923  7864  7864 I SoLoader: Preparing SO source: DirectApkSoSource[root = [/data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk!/lib/arm64-v8a]]
+09-30 15:03:35.925  7864  7864 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/lib/arm64 flags = 0]]
+09-30 15:03:35.925  7864  7864 I SoLoader: init finish: 4 SO sources prepared
+09-30 15:03:35.925  7864  7864 W SoLoader: SoLoader initialized: 8
+09-30 15:03:35.931  7864  7864 D nativeloader: Load /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk!/lib/arm64-v8a/libc++_shared.so using class loader ns clns-9 (caller=/data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk): ok
+09-30 15:03:35.934  7864  7864 D nativeloader: Load /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk!/lib/arm64-v8a/libjsi.so using class loader ns clns-9 (caller=/data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk): ok
+09-30 15:03:35.936  7864  7864 D nativeloader: Load /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk!/lib/arm64-v8a/libfbjni.so using class loader ns clns-9 (caller=/data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk): ok
+09-30 15:03:35.939  7864  7864 D nativeloader: Load /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk!/lib/arm64-v8a/libreactnative.so using class loader ns clns-9 (caller=/data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk): ok
+09-30 15:03:35.940  7864  7864 D jni_lib_merge: Entering merged library JNI_OnLoad.
+09-30 15:03:35.940  7864  7864 D jni_lib_merge: Preparing 13 pre-merged libs (including stub)
+09-30 15:03:35.940  7864  7864 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x75add9fb5c
+09-30 15:03:35.940  7864  7864 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x75ade773d0
+09-30 15:03:35.940  7864  7864 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x75ade9064c
+09-30 15:03:35.940  7864  7864 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x75aded21d8
+09-30 15:03:35.940  7864  7864 D jni_lib_merge: Preparing to register libreact_tracingjni_so.  onload_func: 0x75adfb94cc
+09-30 15:03:35.940  7864  7864 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x75adfbe760
+09-30 15:03:35.940  7864  7864 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x75adfca7f4
+09-30 15:03:35.940  7864  7864 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x75adfcd838
+09-30 15:03:35.940  7864  7864 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x75adff2f50
+09-30 15:03:35.940  7864  7864 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x75ae088f48
+09-30 15:03:35.940  7864  7864 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x75ae08f93c
+09-30 15:03:35.940  7864  7864 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x75ae0973b8
+09-30 15:03:35.940  7864  7864 D jni_lib_merge: About to register 12 actual methods.
+09-30 15:03:35.945  7864  7864 D nativeloader: Load /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk!/lib/arm64-v8a/libreact_codegen_safeareacontext.so using class loader ns clns-9 (caller=/data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk): ok
+09-30 15:03:35.946  7864  7864 D nativeloader: Load /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk!/lib/arm64-v8a/libappmodules.so using class loader ns clns-9 (caller=/data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk): ok
+09-30 15:03:35.954  7864  7877 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+09-30 15:03:35.958  7864  7877 D vulkan  : searching for layers in '/data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/lib/arm64'
+09-30 15:03:35.959  7864  7877 D vulkan  : searching for layers in '/data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk!/lib/arm64-v8a'
+09-30 15:03:35.968  7864  7864 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+09-30 15:03:35.982  7864  7864 D CompatChangeReporter: Compat change id reported: 377864165; UID 10946; state: ENABLED
+09-30 15:03:35.991  7864  7864 D nativeloader: Load /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk!/lib/arm64-v8a/libhermesvm.so using class loader ns clns-9 (caller=/data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk): ok
+09-30 15:03:35.992  7864  7864 D nativeloader: Load /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk!/lib/arm64-v8a/libhermestooling.so using class loader ns clns-9 (caller=/data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk): ok
+09-30 15:03:35.992  7864  7864 D jni_lib_merge: Entering merged library JNI_OnLoad.
+09-30 15:03:35.992  7864  7864 D jni_lib_merge: Preparing 4 pre-merged libs (including stub)
+09-30 15:03:35.992  7864  7864 D jni_lib_merge: Preparing to register libhermes_executor_so.  onload_func: 0x764f767eec
+09-30 15:03:35.992  7864  7864 D jni_lib_merge: Preparing to register libhermesinstancejni_so.  onload_func: 0x764f76f69c
+09-30 15:03:35.992  7864  7864 D jni_lib_merge: Preparing to register libjsijniprofiler_so.  onload_func: 0x764f76ff44
+09-30 15:03:35.992  7864  7864 D jni_lib_merge: About to register 3 actual methods.
+09-30 15:03:36.011  7864  7864 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+09-30 15:03:36.011  7864  7864 W unknown:BridgelessReact: ReactHost{0}.attachSurface(surfaceId = 0)
+09-30 15:03:36.011  7864  7887 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+09-30 15:03:36.011  7864  7887 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Start
+09-30 15:03:36.011  7864  7887 W unknown:BridgelessReact: ReactHost{0}.getJSBundleLoader()
+09-30 15:03:36.011  7864  7887 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Creating BridgelessReactContext
+09-30 15:03:36.012  7864  7887 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Creating ReactInstance
+09-30 15:03:36.015  7864  7864 I ContentCaptureHelper: Setting logging level to OFF
+09-30 15:03:36.027  7864  7864 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+09-30 15:03:36.027  7864  7864 W unknown:BridgelessReact: ReactHost{0}.ReactContext.onHostResume()
+09-30 15:03:36.028  7864  7887 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Loading JS Bundle
+09-30 15:03:36.028  7864  7887 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): DevSupportManager.onNewReactContextCreated()
+09-30 15:03:36.028  7864  7887 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+09-30 15:03:36.033  7864  7888 I ReactNativeJS: Running "MapLibreStartupRepro"
+09-30 15:03:36.037  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+09-30 15:03:36.039  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+09-30 15:03:36.039  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.sources.geojsonsource.MLRNGeoJSONSourceManager
+09-30 15:03:36.041  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.annotations.markerview.MLRNMarkerViewManager
+09-30 15:03:36.041  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.sources.imagesource.MLRNImageSourceManager
+09-30 15:03:36.041  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.sources.tilesources.rastersource.MLRNRasterSourceManager
+09-30 15:03:36.043  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.camera.MLRNCameraManager
+09-30 15:03:36.044  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.sources.tilesources.vectorsource.MLRNVectorSourceManager
+09-30 15:03:36.045  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.mapview.MLRNMapViewManager
+09-30 15:03:36.051  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.mapview.MLRNMapViewManager$MapShadowNode
+09-30 15:03:36.052  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.layer.MLRNLayerManager
+09-30 15:03:36.054  7864  7864 W unknown:BridgelessReact: ReactHost{0}.ReactContext.onHostResume()
+09-30 15:03:36.054  7864  7864 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Executing ReactInstanceEventListeners
+09-30 15:03:36.055  7864  7864 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@c887b71
+09-30 15:03:36.055  7864  7864 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1@19ab1d7
+09-30 15:03:36.055  7864  7864 D VRI[MainActivity]: WindowInsets changed: 1080x2400 statusBars:[0,136,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,168,0,84] 
+09-30 15:03:36.055  7864  7891 D WindowOnBackDispatcher: setOnBackInvokedCallbackInfo: androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1@19ab1d7
+09-30 15:03:36.056  7864  7891 D WindowOnBackDispatcher: setOnBackInvokedCallbackInfo: androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1@19ab1d7
+09-30 15:03:36.056  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+09-30 15:03:36.059  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+09-30 15:03:36.059  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.mapview.MLRNAndroidTextureMapViewManager
+09-30 15:03:36.059  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.sources.tilesources.rasterdemsource.MLRNRasterDEMSourceManager
+09-30 15:03:36.060  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.location.MLRNNativeUserLocationManager
+09-30 15:03:36.060  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.annotations.pointannotation.MLRNPointAnnotationManager
+09-30 15:03:36.061  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.images.MLRNImagesManager
+09-30 15:03:36.061  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.annotations.callout.MLRNCalloutManager
+09-30 15:03:36.062  7864  7864 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.RootViewManager
+09-30 15:03:36.066  7864  7889 I REPRO   : MapViewModule.initialize() on mqt_v_native: posting MapLibre.getInstance to the UI queue
+09-30 15:03:36.070  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewManager
+09-30 15:03:36.071  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+09-30 15:03:36.072  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+09-30 15:03:36.073  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+09-30 15:03:36.075  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+09-30 15:03:36.077  7864  7864 I Surface : Creating surface for consumer unnamed-7864-0 with slotExpansion=1 for 64 slots
+09-30 15:03:36.077  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+09-30 15:03:36.078  7864  7864 I Surface : Creating surface for consumer VRI[MainActivity]#0(BLAST Consumer)0 with slotExpansion=1 for 64 slots
+09-30 15:03:36.079  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+09-30 15:03:36.079  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+09-30 15:03:36.081  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+09-30 15:03:36.082  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+09-30 15:03:36.083  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+09-30 15:03:36.084  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+09-30 15:03:36.085  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+09-30 15:03:36.087  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+09-30 15:03:36.089  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.SelectableTextViewManager
+09-30 15:03:36.089  7864  7888 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.virtual.view.ReactVirtualViewManager
+09-30 15:03:36.093  7864  7864 I REPRO   : MapLibre.getInstance START on main
+09-30 15:03:36.097  7864  7888 I HWUI    : Using FreeType backend (prop=Auto)
+09-30 15:03:36.111  7864  7864 D nativeloader: Load /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk!/lib/arm64-v8a/libmaplibre.so using class loader ns clns-9 (caller=/data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk!classes3.dex): ok
+09-30 15:03:36.113  7864  7888 I ReactNativeJS: [repro] first effect: calling OfflineManager
+09-30 15:03:36.113  7864  7888 I REPRO   : OfflineModule.initialize() on mqt_v_js: posting runMigrations to the main looper
+09-30 15:03:36.115  7864  7889 I REPRO   : setTileCountLimit on mqt_v_native
+09-30 15:03:36.119  7864  7889 F brestartuprepro: java_vm_ext.cc:611] JNI DETECTED ERROR IN APPLICATION: obj == null
+09-30 15:03:36.119  7864  7889 F brestartuprepro: java_vm_ext.cc:611]     in call to GetObjectField
+09-30 15:03:36.119  7864  7889 F brestartuprepro: java_vm_ext.cc:611]     from void org.maplibre.android.storage.FileSource.initialize(java.lang.String, java.lang.String, org.maplibre.android.util.TileServerOptions)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] Runtime aborting...
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] Dumping all threads without mutator lock held
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] All threads:
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] DALVIK THREADS (26):
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "main" prio=10 tid=1 Blocked
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb4000077092f5be0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7864 nice=-10 cgrp=default sched=1073741824/0 handle=0x793068f048
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 144515580 17706823 880 ) utm=7 stm=6 core=6 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x7fca938000-0x7fca93a000 stackSize=8188KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000aa39c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 00004504  /system/lib64/libartpalette-system.so (PaletteWaitPrivateWithBlockerHint+36) (BuildId: 23de9b4a875ed6e65dbc1b2cc7be9cfd)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 002b0a80  /apex/com.android.art/lib64/libart.so (void art::Monitor::Lock<1>+9392) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #03 pc 002d9bc4  /apex/com.android.art/lib64/libart.so (art::Monitor::MonitorEnter+292) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #04 pc 002d8638  /apex/com.android.art/lib64/libart.so (artLockObjectFromCode+72) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #05 pc 00277054  /apex/com.android.art/lib64/libart.so (art_quick_lock_object_no_inline+52) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #06 pc 006d574c  /apex/com.android.art/lib64/libart.so (nterp3_op_monitor_enter+12) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #07 pc 00ac4db8  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/oat/arm64/base.vdex (org.maplibre.android.storage.FileSource.getInstance+4)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #08 pc 006d6c6c  /apex/com.android.art/lib64/libart.so (nterp3_op_invoke_static+44) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #09 pc 00a88928  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/oat/arm64/base.vdex (org.maplibre.android.MapLibre.getInstance+116)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #10 pc 006da164  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #11 pc 00a88882  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/oat/arm64/base.vdex (org.maplibre.android.MapLibre.getInstance+14)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #12 pc 00276dc0  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #13 pc 006c0584  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false>+2484) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #14 pc 004a464c  /apex/com.android.art/lib64/libart.so (void art::interpreter::ExecuteSwitchImplCpp<false>+588) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #15 pc 004b48d8  /apex/com.android.art/lib64/libart.so (ExecuteSwitchImplAsm+8) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #16 pc 00a88830  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/oat/arm64/base.vdex (org.maplibre.android.MapLibre.getInstance)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #17 pc 004b3cf0  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+1232) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #18 pc 0028e1a8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #19 pc 006da164  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #20 pc 00aea586  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/oat/arm64/base.vdex (org.maplibre.reactnative.components.mapview.MLRNMapViewModule.initialize$lambda$0+78)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #21 pc 006d6c6c  /apex/com.android.art/lib64/libart.so (nterp3_op_invoke_static+44) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.android.storage.FileSource.getInstance(unavailable:2)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - waiting to lock <0x0194b94a> (a java.lang.Class<org.maplibre.android.storage.FileSource>) held by thread 18
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.android.MapLibre.getInstance(MapLibre.java:121)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - locked <@addr=0x247a0a8> (a java.lang.Class<org.maplibre.android.MapLibre>)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.android.MapLibre.getInstance(MapLibre.java:77)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - locked <@addr=0x247a0a8> (a java.lang.Class<org.maplibre.android.MapLibre>)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.android.MapLibre.getInstance(MapLibre.java:56)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - locked <@addr=0x247a0a8> (a java.lang.Class<org.maplibre.android.MapLibre>)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.reactnative.components.mapview.MLRNMapViewModule.initialize$lambda$0(MLRNMapViewModule.kt:29)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.reactnative.components.mapview.MLRNMapViewModule$$ExternalSyntheticLambda8.run(D8$$SyntheticClass:0)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Handler.handleCallback(Handler.java:1082)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Handler.dispatchMessage(Handler.java:126)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Looper.loopOnce(Looper.java:295)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Looper.loop(Looper.java:398)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.app.ActivityThread.main(ActivityThread.java:9569)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.reflect.Method.invoke(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:575)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:918)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "ReferenceQueueDaemon" prio=5 tid=6 Waiting
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb4000077092faf50
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7869 nice=4 cgrp=default sched=0/0 handle=0x76187dafc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 117554 14323 1 ) utm=0 stm=0 core=7 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x76186d8000-0x76186da000 stackSize=1035KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000aa39c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 00232f18  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks+136) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 005c416c  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait+2332) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Object.wait(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - waiting on <0x0603a0bb> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Object.wait(Object.java:390)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Object.wait(Object.java:528)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Daemons$ReferenceQueueDaemon.runInternal(Daemons.java:260)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - locked <0x0603a0bb> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Daemons$Daemon.run(Daemons.java:135)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Thread.run(Thread.java:1571)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "FinalizerDaemon" prio=5 tid=7 Waiting
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb400007709303a60
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7870 nice=4 cgrp=default sched=0/0 handle=0x76176d0fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 75562 0 2 ) utm=0 stm=0 core=6 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x76175ce000-0x76175d0000 stackSize=1035KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000aa39c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 00232f18  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks+136) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 005c416c  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait+2332) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Object.wait(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - waiting on <0x062699d8> (a java.lang.Object)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Object.wait(Object.java:390)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:207)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - locked <0x062699d8> (a java.lang.Object)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:228)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:348)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Daemons$Daemon.run(Daemons.java:135)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Thread.run(Thread.java:1571)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "FinalizerWatchdogDaemon" prio=5 tid=8 Waiting
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb400007709305630
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7871 nice=4 cgrp=default sched=0/0 handle=0x76175c6fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 39673 22420 1 ) utm=0 stm=0 core=6 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x76174c4000-0x76174c6000 stackSize=1035KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000aa39c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 00232f18  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks+136) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 005c416c  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait+2332) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Object.wait(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - waiting on <0x065f8131> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Object.wait(Object.java:390)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Object.wait(Object.java:528)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Daemons$FinalizerWatchdogDaemon.sleepUntilNeeded(Daemons.java:481)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - locked <0x065f8131> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Daemons$FinalizerWatchdogDaemon.runInternal(Daemons.java:461)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Daemons$Daemon.run(Daemons.java:135)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Thread.run(Thread.java:1571)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "HybridData DestructorThread" prio=5 tid=14 Waiting
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb40000770931a3f0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7884 nice=0 cgrp=default sched=0/0 handle=0x7616bcefc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 105020 0 1 ) utm=0 stm=0 core=7 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x7616acc000-0x7616ace000 stackSize=1035KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000aa39c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 00232f18  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks+136) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 005c416c  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait+2332) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Object.wait(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - waiting on <0x0ced2016> (a java.lang.Object)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Object.wait(Object.java:390)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:207)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - locked <0x0ced2016> (a java.lang.Object)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:228)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at com.facebook.jni.DestructorThread$1.run(DestructorThread.java:77)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "mqt_v_native" prio=7 tid=18 Runnable
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=0 ucsCount=0 flags=0 obj=0 self=0xb400007709366bb0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7889 nice=-4 cgrp=default sched=0/0 handle=0x75a3820fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=R schedstat=( 101430212 40237149 1297 ) utm=5 stm=5 core=7 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x75a371e000-0x75a3720000 stackSize=1035KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes= "abort lock" "mutator lock"(shared held)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 0043cdd0  /apex/com.android.art/lib64/libart.so (art::DumpNativeStack+112) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 0059dd9c  /apex/com.android.art/lib64/libart.so (art::Thread::DumpStack const+172) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 0059da28  /apex/com.android.art/lib64/libart.so (art::DumpCheckpoint::Run+360) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #03 pc 00302610  /apex/com.android.art/lib64/libart.so (art::ThreadList::RunCheckpoint+2160) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #04 pc 0059b994  /apex/com.android.art/lib64/libart.so (art::ThreadList::Dump+212) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #05 pc 009819f0  /apex/com.android.art/lib64/libart.so (art::AbortState::DumpAllThreads const+448) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #06 pc 00981534  /apex/com.android.art/lib64/libart.so (art::AbortState::Dump const+196) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #07 pc 0097837c  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort+828) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #08 pc 00014c84  /apex/com.android.art/lib64/libbase.so (android::base::SetAborter::$_0::__invoke+84) (BuildId: d02f13ce99f58ca5e4cc1d57bd737e54)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #09 pc 00014358  /apex/com.android.art/lib64/libbase.so (android::base::LogMessage::~LogMessage+552) (BuildId: d02f13ce99f58ca5e4cc1d57bd737e54)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #10 pc 0054990c  /apex/com.android.art/lib64/libart.so (art::JavaVMExt::JniAbort+1740) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #11 pc 00664f08  /apex/com.android.art/lib64/libart.so (art::JNI<false>::GetObjectField+1128) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #12 pc 0062172c  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk (offset 9f0000) (mln::android::TileServerOptions::getTileServerOptions+436) (BuildId: 6c19183c0672c437f15fb4deb5233532dedf7685)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #13 pc 00502be4  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk (offset 9f0000) (mln::android::FileSource::FileSource+312) (BuildId: 6c19183c0672c437f15fb4deb5233532dedf7685)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #14 pc 0050a984  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk (offset 9f0000) (std::__ndk1::unique_ptr<mln::android::FileSource, std::__ndk1::default_delete<mln::android::FileSource>> jni::MakePeer<mln::android::FileSource, jni::Object<jni::StringTag> const&, jni::Object<jni::StringTag> const&, jni::Object<mln::android::TileServerOptions> const&>+68) (BuildId: 6c19183c0672c437f15fb4deb5233532dedf7685)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #15 pc 005093bc  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk (offset 9f0000) (jni::NativePeerHelper<mln::android::FileSource, mln::android::FileSource, std::__ndk1::unique_ptr<mln::android::FileSource, std::__ndk1::default_delete<mln::android::FileSource>> >::MakeInitializer const::'lambda'::operator const+140) (BuildId: 6c19183c0672c437f15fb4deb5233532dedf7685)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #16 pc 00509308  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk (offset 9f0000) (auto jni::NativeMethodMaker<void  const>::operator<jni::NativePeerHelper<mln::android::FileSource, mln::android::FileSource, std::__ndk1::unique_ptr<mln::android::FileSource, std::__ndk1::default_delete<mln::android::FileSource>> >::MakeInitializer const::'lambda'>::'lambda'::__invoke+76) (BuildId: 6c19183c0672c437f15fb4deb5233532dedf7685)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #17 pc 00509528  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk (offset 9f0000) (auto auto jni::MakeNativeMethod<auto jni::NativeMethodMaker<void  const>::operator<jni::NativePeerHelper<mln::android::FileSource, mln::android::FileSource, std::__ndk1::unique_ptr<mln::android::FileSource, std::__ndk1::default_delete<mln::android::FileSource>> >::MakeInitializer const::'lambda'>::'lambda'>::'lambda'::__invoke<jni::jobject*, jni::jstring*, jni::jstring*, jni::jobject*>+44) (BuildId: 6c19183c0672c437f15fb4deb5233532dedf7685)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.android.storage.FileSource.initialize(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.android.storage.FileSource.<init>(FileSource.java:349)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.android.storage.FileSource.getInstance(FileSource.java:95)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - locked <0x0194b94a> (a java.lang.Class<org.maplibre.android.storage.FileSource>)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.android.offline.OfflineManager.<init>(OfflineManager.kt:133)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.android.offline.OfflineManager.<init>(unavailable:0)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.android.offline.OfflineManager$Companion.getInstance(OfflineManager.kt:653)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - locked <@addr=0x2514cb8> (a org.maplibre.android.offline.OfflineManager$Companion)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.reactnative.modules.MLRNOfflineModule.setTileCountLimit(MLRNOfflineModule.kt:446)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at com.facebook.jni.NativeRunnable.run(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Handler.handleCallback(Handler.java:1082)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Handler.dispatchMessage(Handler.java:126)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Looper.loopOnce(Looper.java:295)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Looper.loop(Looper.java:398)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Thread.run(Thread.java:1571)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "repro-watchdog" prio=5 tid=26 Sleeping
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb400007709379da0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7908 nice=0 cgrp=default sched=0/0 handle=0x75993ebfc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 441447 4008789 2 ) utm=0 stm=0 core=3 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x75992e9000-0x75992eb000 stackSize=1035KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000aa3a0  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 00246914  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::TimedWait+292) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 005c3b38  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait+744) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Thread.sleep(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - sleeping on <0x07c18d97> (a java.lang.Object)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Thread.sleep0(Thread.java:687)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - locked <0x07c18d97> (a java.lang.Object)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Thread.sleep(Thread.java:665)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Thread.sleep(Thread.java:578)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.reactnative.modules.MLRNOfflineModule.startReproWatchdog$lambda$0(MLRNOfflineModule.kt:48)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.reactnative.modules.MLRNOfflineModule$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Thread.run(Thread.java:1571)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "Signal Catcher" prio=10 tid=2 WaitingInMainSignalCatcherLoop
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb4000077092fcb20
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7865 nice=-20 cgrp=default sched=0/0 handle=0x761bbe6fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 294107 10010 3 ) utm=0 stm=0 core=7 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x761baf0000-0x761baf2000 stackSize=987KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000e9ac8  /apex/com.android.runtime/lib64/bionic/libc.so (__rt_sigtimedwait+8) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 00097974  /apex/com.android.runtime/lib64/bionic/libc.so (sigwaitinfo64+68) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 00564528  /apex/com.android.art/lib64/libart.so (art::SignalCatcher::WaitForSignal+120) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #03 pc 00564308  /apex/com.android.art/lib64/libart.so (art::SignalCatcher::Run+264) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #04 pc 00091794  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start +180) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #05 pc 00080e44  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   (no managed stack frames)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "perfetto_hprof_listener" prio=10 tid=3 Native (still starting up)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb4000077092f77b0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7866 nice=-20 cgrp=default sched=0/0 handle=0x761aae8fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 252767 29012 9 ) utm=0 stm=0 core=7 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x761a9f2000-0x761a9f4000 stackSize=987KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000e8084  /apex/com.android.runtime/lib64/bionic/libc.so (read+4) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 00033640  /apex/com.android.art/lib64/libperfetto_hprof.so (void* std::__1::__thread_proxy[abi:nn220000]<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct>>, ArtPlugin_Initialize::$_7>>+272) (BuildId: 38cfb7bb62aff4e5d41a49b8fccf13d5)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 00091794  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start +180) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #03 pc 00080e44  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   (no managed stack frames)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "Jit thread pool worker thread 0" prio=4 tid=4 Native
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb4000077092fe6f0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7867 nice=9 cgrp=default sched=0/0 handle=0x76199eafc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 155720 0 2 ) utm=0 stm=0 core=6 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x76198ec000-0x76198ee000 stackSize=1019KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000aa39c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 00232f18  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks+136) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 00232e14  /apex/com.android.art/lib64/libart.so (art::ThreadPoolWorker::Run+228) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #03 pc 00563e24  /apex/com.android.art/lib64/libart.so (art::ThreadPoolWorker::Callback+180) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #04 pc 00091794  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start +180) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #05 pc 00080e44  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   (no managed stack frames)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "HeapTaskDaemon" prio=5 tid=5 WaitingForTaskProcessor
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb4000077093002c0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7868 nice=4 cgrp=default sched=0/0 handle=0x76188e4fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 98185 27628 1 ) utm=0 stm=0 core=6 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x76187e2000-0x76187e4000 stackSize=1035KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000aa3a0  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 00246914  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::TimedWait+292) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 002461e4  /apex/com.android.art/lib64/libart.so (art::gc::TaskProcessor::RunAllTasks+212) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at dalvik.system.VMRuntime.runHeapTasks(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Daemons$HeapTaskDaemon.runInternal(Daemons.java:764)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Daemons$Daemon.run(Daemons.java:135)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Thread.run(Thread.java:1571)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "binder:7864_1" prio=5 tid=9 Native
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb400007709308dd0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7872 nice=0 cgrp=default sched=0/0 handle=0x761739efc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 1630777 1877970 13 ) utm=0 stm=0 core=5 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x76172a8000-0x76172aa000 stackSize=987KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000e86c8  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+8) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 0008c590  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+160) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 0009c80c  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool+300) (BuildId: c60f1fe8f9a8105448e1b04cfa0c2fbd)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #03 pc 0009c6c8  /system/lib64/libbinder.so (android::PoolThread::threadLoop+24) (BuildId: c60f1fe8f9a8105448e1b04cfa0c2fbd)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #04 pc 000176c4  /system/lib64/libutils.so (android::Thread::_threadLoop+260) (BuildId: d562bc17f76289a9c513f32c5bbbd88f)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #05 pc 001cbfd8  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell+104) (BuildId: 7f4d086054897dc7077f24171e43963a)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #06 pc 000191b4  /system/lib64/libutils.so (libutil_thread_trampoline +20) (BuildId: d562bc17f76289a9c513f32c5bbbd88f)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #07 pc 00091794  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start +180) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #08 pc 00080e44  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   (no managed stack frames)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "binder:7864_2" prio=5 tid=10 Native
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb40000770930e140
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7873 nice=0 cgrp=default sched=0/0 handle=0x76172a0fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 1402385 65958 6 ) utm=0 stm=0 core=7 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x76171aa000-0x76171ac000 stackSize=987KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000e86c8  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+8) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 0008c590  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+160) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 0009c80c  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool+300) (BuildId: c60f1fe8f9a8105448e1b04cfa0c2fbd)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #03 pc 0009c6c8  /system/lib64/libbinder.so (android::PoolThread::threadLoop+24) (BuildId: c60f1fe8f9a8105448e1b04cfa0c2fbd)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #04 pc 000176c4  /system/lib64/libutils.so (android::Thread::_threadLoop+260) (BuildId: d562bc17f76289a9c513f32c5bbbd88f)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #05 pc 001cbfd8  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell+104) (BuildId: 7f4d086054897dc7077f24171e43963a)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #06 pc 000191b4  /system/lib64/libutils.so (libutil_thread_trampoline +20) (BuildId: d562bc17f76289a9c513f32c5bbbd88f)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #07 pc 00091794  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start +180) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #08 pc 00080e44  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   (no managed stack frames)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "binder:7864_3" prio=5 tid=11 Native
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb40000770930a9a0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7874 nice=0 cgrp=default sched=0/0 handle=0x76171a2fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 1085615 103922 7 ) utm=0 stm=0 core=6 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x76170ac000-0x76170ae000 stackSize=987KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000e86c8  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+8) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 0008c590  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+160) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 0009c80c  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool+300) (BuildId: c60f1fe8f9a8105448e1b04cfa0c2fbd)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #03 pc 0009c6c8  /system/lib64/libbinder.so (android::PoolThread::threadLoop+24) (BuildId: c60f1fe8f9a8105448e1b04cfa0c2fbd)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #04 pc 000176c4  /system/lib64/libutils.so (android::Thread::_threadLoop+260) (BuildId: d562bc17f76289a9c513f32c5bbbd88f)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #05 pc 001cbfd8  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell+104) (BuildId: 7f4d086054897dc7077f24171e43963a)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #06 pc 000191b4  /system/lib64/libutils.so (libutil_thread_trampoline +20) (BuildId: d562bc17f76289a9c513f32c5bbbd88f)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #07 pc 00091794  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start +180) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #08 pc 00080e44  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   (no managed stack frames)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "Profile Saver" prio=4 tid=12 Native
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb40000770930c570
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7875 nice=9 cgrp=default sched=0/0 handle=0x7616ec8fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 126749 0 1 ) utm=0 stm=0 core=6 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x7616dd2000-0x7616dd4000 stackSize=987KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000aa39c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 00232f18  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks+136) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 00563adc  /apex/com.android.art/lib64/libart.so (art::ProfileSaver::RunProfileSaverThread+1500) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #03 pc 00091794  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start +180) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #04 pc 00080e44  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   (no managed stack frames)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "RenderThread" prio=10 tid=13 Native
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb400007709315080
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7877 nice=-10 cgrp=default sched=1073741824/0 handle=0x764f898fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 21636081 9163527 685 ) utm=0 stm=1 core=4 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x764f7a2000-0x764f7a4000 stackSize=987KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000ea708  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+8) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 0001a140  /system/lib64/libutils.so (android::Looper::pollOnce+256) (BuildId: d562bc17f76289a9c513f32c5bbbd88f)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 004a27cc  /system/lib64/libhwui.so (android::uirenderer::renderthread::RenderThread::threadLoop+236) (BuildId: 5896b74ea0858aefee3693c31ef98434)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #03 pc 000176c4  /system/lib64/libutils.so (android::Thread::_threadLoop+260) (BuildId: d562bc17f76289a9c513f32c5bbbd88f)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #04 pc 000191b4  /system/lib64/libutils.so (libutil_thread_trampoline +20) (BuildId: d562bc17f76289a9c513f32c5bbbd88f)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #05 pc 00091794  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start +180) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #06 pc 00080e44  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   (no managed stack frames)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "SharedPreferences" prio=5 tid=15 TimedWaiting
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb40000770932d5e0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7886 nice=0 cgrp=default sched=0/0 handle=0x76169c6fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 547567 126993 4 ) utm=0 stm=0 core=4 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x76168c4000-0x76168c6000 stackSize=1035KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000aa3a0  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 0048df4c  /apex/com.android.art/lib64/libart.so (art::Thread::Park+748) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 0048d218  /apex/com.android.art/lib64/libart.so (art::Unsafe_park +168) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at jdk.internal.misc.Unsafe.park(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - waiting on an unknown object
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:276)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1803)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1025)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1086)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Thread.run(Thread.java:1571)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "pool-3-thread-1" prio=5 tid=16 Waiting
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb400007709332950
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7887 nice=0 cgrp=default sched=0/0 handle=0x75b2999fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 13206303 324950 25 ) utm=1 stm=0 core=6 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x75b2897000-0x75b2899000 stackSize=1035KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000aa39c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 0048de08  /apex/com.android.art/lib64/libart.so (art::Thread::Park+424) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 0048d218  /apex/com.android.art/lib64/libart.so (art::Unsafe_park +168) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at jdk.internal.misc.Unsafe.park(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - waiting on an unknown object
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.locks.LockSupport.park(LockSupport.java:376)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:520)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3797)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3738)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1752)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1026)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1086)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Thread.run(Thread.java:1571)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "mqt_v_js" prio=7 tid=17 Native
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb400007709363410
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7888 nice=-4 cgrp=default sched=0/0 handle=0x75a492afc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 69470411 10912567 124 ) utm=6 stm=0 core=7 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x75a4828000-0x75a482a000 stackSize=1035KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000ea708  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+8) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 0001a140  /system/lib64/libutils.so (android::Looper::pollOnce+256) (BuildId: d562bc17f76289a9c513f32c5bbbd88f)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 0023727c  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce +44) (BuildId: 7f4d086054897dc7077f24171e43963a)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.MessageQueue.nativePollOnce(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.MessageQueue.nextLegacy(MessageQueue.java:870)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.MessageQueue.next(MessageQueue.java:772)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Looper.loopOnce(Looper.java:231)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Looper.loop(Looper.java:398)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Thread.run(Thread.java:1571)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "android.bg" prio=4 tid=19 Native
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb400007709368780
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7891 nice=10 cgrp=default sched=0/0 handle=0x75a2618fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 1291749 233032 8 ) utm=0 stm=0 core=6 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x75a2516000-0x75a2518000 stackSize=1035KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000ea708  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+8) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 0001a140  /system/lib64/libutils.so (android::Looper::pollOnce+256) (BuildId: d562bc17f76289a9c513f32c5bbbd88f)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 0023727c  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce +44) (BuildId: 7f4d086054897dc7077f24171e43963a)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.MessageQueue.nativePollOnce(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.MessageQueue.nextLegacy(MessageQueue.java:870)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.MessageQueue.next(MessageQueue.java:772)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Looper.loopOnce(Looper.java:231)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Looper.loop(Looper.java:398)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.HandlerThread.run(HandlerThread.java:140)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "ProtoLogBackground" prio=5 tid=20 Waiting
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb400007709364fe0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7893 nice=0 cgrp=default sched=0/0 handle=0x759fb01fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 459840 553385 4 ) utm=0 stm=0 core=6 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x759f9ff000-0x759fa01000 stackSize=1035KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000aa39c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 0048de08  /apex/com.android.art/lib64/libart.so (art::Thread::Park+424) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 0048d218  /apex/com.android.art/lib64/libart.so (art::Unsafe_park +168) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at jdk.internal.misc.Unsafe.park(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - waiting on an unknown object
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.locks.LockSupport.park(LockSupport.java:376)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:520)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3797)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3738)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1752)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:486)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1026)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1086)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Thread.run(Thread.java:1571)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "hwuiTask1" prio=6 tid=21 Native
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb40000770936f6c0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7895 nice=-2 cgrp=default sched=1073741824/0 handle=0x759e8f9fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 618934 5656 6 ) utm=0 stm=0 core=7 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x759e803000-0x759e805000 stackSize=987KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000aa39c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 0007f924  /apex/com.android.runtime/lib64/bionic/libc.so (__futex_wait_ex+148) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 000909ec  /apex/com.android.runtime/lib64/bionic/libc.so (pthread_cond_wait+76) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #03 pc 000b0140  /system/lib64/libc++.so (std::__1::condition_variable::wait+28) (BuildId: 3c55e736843ec0ef5373038263fc7da706a01eba)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #04 pc 004b1ae0  /system/lib64/libhwui.so (android::uirenderer::CommonPool::workerLoop+368) (BuildId: 5896b74ea0858aefee3693c31ef98434)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #05 pc 004b1c78  /system/lib64/libhwui.so (void* std::__1::__thread_proxy[abi:nn220000]<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct>>, android::uirenderer::CommonPool::CommonPool::$_0>> +56) (BuildId: 5896b74ea0858aefee3693c31ef98434)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #06 pc 00091794  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start +180) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #07 pc 00080e44  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   (no managed stack frames)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "hwuiTask0" prio=6 tid=22 Native
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb40000770936a350
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7894 nice=-2 cgrp=default sched=1073741824/0 handle=0x759e9f7fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 11051226 21071979 212 ) utm=0 stm=1 core=7 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x759e901000-0x759e903000 stackSize=987KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000aa39c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 0007f924  /apex/com.android.runtime/lib64/bionic/libc.so (__futex_wait_ex+148) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 000909ec  /apex/com.android.runtime/lib64/bionic/libc.so (pthread_cond_wait+76) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #03 pc 000b0140  /system/lib64/libc++.so (std::__1::condition_variable::wait+28) (BuildId: 3c55e736843ec0ef5373038263fc7da706a01eba)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #04 pc 004b1ae0  /system/lib64/libhwui.so (android::uirenderer::CommonPool::workerLoop+368) (BuildId: 5896b74ea0858aefee3693c31ef98434)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #05 pc 004b1c78  /system/lib64/libhwui.so (void* std::__1::__thread_proxy[abi:nn220000]<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct>>, android::uirenderer::CommonPool::CommonPool::$_0>> +56) (BuildId: 5896b74ea0858aefee3693c31ef98434)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #06 pc 00091794  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start +180) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #07 pc 00080e44  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   (no managed stack frames)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "SurfaceSyncGroupTimer" prio=5 tid=23 Native
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb400007709371290
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7904 nice=0 cgrp=default sched=0/0 handle=0x759b6fdfc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 230184 4616251 3 ) utm=0 stm=0 core=5 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x759b5fb000-0x759b5fd000 stackSize=1035KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000ea708  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+8) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 0001a140  /system/lib64/libutils.so (android::Looper::pollOnce+256) (BuildId: d562bc17f76289a9c513f32c5bbbd88f)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 0023727c  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce +44) (BuildId: 7f4d086054897dc7077f24171e43963a)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.MessageQueue.nativePollOnce(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.MessageQueue.nextLegacy(MessageQueue.java:870)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.MessageQueue.next(MessageQueue.java:772)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Looper.loopOnce(Looper.java:231)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Looper.loop(Looper.java:398)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.HandlerThread.run(HandlerThread.java:140)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "AsyncTask #1" prio=4 tid=24 Waiting
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb4000077093781d0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7906 nice=10 cgrp=default sched=0/0 handle=0x759a4f5fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 1882691 1560058 6 ) utm=0 stm=0 core=1 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x759a3f3000-0x759a3f5000 stackSize=1035KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000aa39c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 0048de08  /apex/com.android.art/lib64/libart.so (art::Thread::Park+424) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 0048d218  /apex/com.android.art/lib64/libart.so (art::Unsafe_park +168) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at jdk.internal.misc.Unsafe.park(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - waiting on an unknown object
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.locks.LockSupport.park(LockSupport.java:376)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:458)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:235)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:318)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1026)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1086)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Thread.run(Thread.java:1571)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "queued-work-looper" prio=6 tid=25 Native
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=1 ucsCount=0 flags=1 obj=0 self=0xb400007709376600
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7907 nice=-2 cgrp=default sched=0/0 handle=0x75953fafc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=S schedstat=( 1049887 360068 7 ) utm=0 stm=0 core=6 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x75952f8000-0x75952fa000 stackSize=1035KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes=
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 000ea708  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+8) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 0001a140  /system/lib64/libutils.so (android::Looper::pollOnce+256) (BuildId: d562bc17f76289a9c513f32c5bbbd88f)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 0023727c  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce +44) (BuildId: 7f4d086054897dc7077f24171e43963a)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.MessageQueue.nativePollOnce(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.MessageQueue.nextLegacy(MessageQueue.java:870)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.MessageQueue.next(MessageQueue.java:772)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Looper.loopOnce(Looper.java:231)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Looper.loop(Looper.java:398)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.HandlerThread.run(HandlerThread.java:140)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] Aborting thread:
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] "mqt_v_native" prio=7 tid=18 Native
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | group="" sCount=0 ucsCount=0 flags=0 obj=0 self=0xb400007709366bb0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | sysTid=7889 nice=-4 cgrp=default sched=0/0 handle=0x75a3820fc0
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | state=R schedstat=( 113680094 42422735 1340 ) utm=5 stm=6 core=7 HZ=100
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | stack=0x75a371e000-0x75a3720000 stackSize=1035KB
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   | held mutexes= "abort lock" "mutator lock"(shared held)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #00 pc 0043cdd0  /apex/com.android.art/lib64/libart.so (art::DumpNativeStack+112) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #01 pc 0059dd9c  /apex/com.android.art/lib64/libart.so (art::Thread::DumpStack const+172) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #02 pc 00991e2c  /apex/com.android.art/lib64/libart.so (art::Thread::DumpStack const+108) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #03 pc 00981a7c  /apex/com.android.art/lib64/libart.so (art::AbortState::DumpThread const+60) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #04 pc 00981660  /apex/com.android.art/lib64/libart.so (art::AbortState::Dump const+496) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #05 pc 0097837c  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort+828) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #06 pc 00014c84  /apex/com.android.art/lib64/libbase.so (android::base::SetAborter::$_0::__invoke+84) (BuildId: d02f13ce99f58ca5e4cc1d57bd737e54)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #07 pc 00014358  /apex/com.android.art/lib64/libbase.so (android::base::LogMessage::~LogMessage+552) (BuildId: d02f13ce99f58ca5e4cc1d57bd737e54)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #08 pc 0054990c  /apex/com.android.art/lib64/libart.so (art::JavaVMExt::JniAbort+1740) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #09 pc 00664f08  /apex/com.android.art/lib64/libart.so (art::JNI<false>::GetObjectField+1128) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #10 pc 0062172c  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk (offset 9f0000) (mln::android::TileServerOptions::getTileServerOptions+436) (BuildId: 6c19183c0672c437f15fb4deb5233532dedf7685)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #11 pc 00502be4  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk (offset 9f0000) (mln::android::FileSource::FileSource+312) (BuildId: 6c19183c0672c437f15fb4deb5233532dedf7685)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #12 pc 0050a984  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk (offset 9f0000) (std::__ndk1::unique_ptr<mln::android::FileSource, std::__ndk1::default_delete<mln::android::FileSource>> jni::MakePeer<mln::android::FileSource, jni::Object<jni::StringTag> const&, jni::Object<jni::StringTag> const&, jni::Object<mln::android::TileServerOptions> const&>+68) (BuildId: 6c19183c0672c437f15fb4deb5233532dedf7685)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #13 pc 005093bc  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk (offset 9f0000) (jni::NativePeerHelper<mln::android::FileSource, mln::android::FileSource, std::__ndk1::unique_ptr<mln::android::FileSource, std::__ndk1::default_delete<mln::android::FileSource>> >::MakeInitializer const::'lambda'::operator const+140) (BuildId: 6c19183c0672c437f15fb4deb5233532dedf7685)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #14 pc 00509308  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk (offset 9f0000) (auto jni::NativeMethodMaker<void  const>::operator<jni::NativePeerHelper<mln::android::FileSource, mln::android::FileSource, std::__ndk1::unique_ptr<mln::android::FileSource, std::__ndk1::default_delete<mln::android::FileSource>> >::MakeInitializer const::'lambda'>::'lambda'::__invoke+76) (BuildId: 6c19183c0672c437f15fb4deb5233532dedf7685)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #15 pc 00509528  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk (offset 9f0000) (auto auto jni::MakeNativeMethod<auto jni::NativeMethodMaker<void  const>::operator<jni::NativePeerHelper<mln::android::FileSource, mln::android::FileSource, std::__ndk1::unique_ptr<mln::android::FileSource, std::__ndk1::default_delete<mln::android::FileSource>> >::MakeInitializer const::'lambda'>::'lambda'>::'lambda'::__invoke<jni::jobject*, jni::jstring*, jni::jstring*, jni::jobject*>+44) (BuildId: 6c19183c0672c437f15fb4deb5233532dedf7685)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #16 pc 002cabf4  /system/framework/arm64/boot.oat (art_jni_trampoline+148) (BuildId: f47b0a0246b58cd157b8649b076b12d120290440)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #17 pc 006da93c  /apex/com.android.art/lib64/libart.so (nterp_helper+2124) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #18 pc 00ac4e88  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/oat/arm64/base.vdex (org.maplibre.android.storage.FileSource.<init>+28)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #19 pc 006da8e4  /apex/com.android.art/lib64/libart.so (nterp_helper+2036) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #20 pc 00ac4dce  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/oat/arm64/base.vdex (org.maplibre.android.storage.FileSource.getInstance+26)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #21 pc 006d6c6c  /apex/com.android.art/lib64/libart.so (nterp3_op_invoke_static+44) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #22 pc 00ab7e12  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/oat/arm64/base.vdex (org.maplibre.android.offline.OfflineManager.<init>+50)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #23 pc 006da8e4  /apex/com.android.art/lib64/libart.so (nterp_helper+2036) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #24 pc 00ab7e48  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/oat/arm64/base.vdex (org.maplibre.android.offline.OfflineManager.<init>)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #25 pc 006da8e4  /apex/com.android.art/lib64/libart.so (nterp_helper+2036) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #26 pc 00ab6ca6  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/oat/arm64/base.vdex (org.maplibre.android.offline.OfflineManager$Companion.getInstance+30)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #27 pc 006da8e4  /apex/com.android.art/lib64/libart.so (nterp_helper+2036) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #28 pc 00af4d0c  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/oat/arm64/base.vdex (org.maplibre.reactnative.modules.MLRNOfflineModule.setTileCountLimit+64)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #29 pc 00276af4  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #30 pc 00268a84  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>+708) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #31 pc 00670748  /apex/com.android.art/lib64/libart.so (art::JNI<false>::CallVoidMethodA+152) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #32 pc 0042d1c8  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk (offset 1544000) (???) (BuildId: 7e70f59e9db250d0eef89a38203b167ad57375a7)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #33 pc 0054deb4  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk (offset 1544000) (???) (BuildId: 7e70f59e9db250d0eef89a38203b167ad57375a7)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #34 pc 00017dd0  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk (offset 6d4000) (facebook::jni::detail::MethodWrapper<void , &facebook::jni::JNativeRunnable::run, facebook::jni::JNativeRunnable, void>::dispatch+72) (BuildId: e438f6554af1d86b210a05412e96c4251e570157)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #35 pc 00017d10  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/base.apk (offset 6d4000) (facebook::jni::detail::FunctionWrapper<void , facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::jni::JNativeRunnable, facebook::jni::JRunnable>::JavaPart, facebook::jni::JRunnable, void>::_javaobject*, void>::call+60) (BuildId: e438f6554af1d86b210a05412e96c4251e570157)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #36 pc 002c570c  /system/framework/arm64/boot.oat (art_jni_trampoline+108) (BuildId: f47b0a0246b58cd157b8649b076b12d120290440)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #37 pc 00487064  /system/framework/arm64/boot-framework.oat (android.os.Handler.dispatchMessage+68) (BuildId: 04fced58504cee6f6daf0767dc9cf8ce6c29c0fd)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #38 pc 006da93c  /apex/com.android.art/lib64/libart.so (nterp_helper+2124) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #39 pc 00339670  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/oat/arm64/base.vdex (com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage+16)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #40 pc 004ef3ac  /system/framework/arm64/boot-framework.oat (android.os.Looper.loopOnce+1388) (BuildId: 04fced58504cee6f6daf0767dc9cf8ce6c29c0fd)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #41 pc 004eedb8  /system/framework/arm64/boot-framework.oat (android.os.Looper.loop+328) (BuildId: 04fced58504cee6f6daf0767dc9cf8ce6c29c0fd)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #42 pc 006da164  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #43 pc 00339902  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/oat/arm64/base.vdex (com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0+34)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #44 pc 006da164  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #45 pc 00339706  /data/app/~~DbCbnzldeinkOYi5dG46ag==/com.maplibrestartuprepro-XUFPaTAbk66cTi9-QdfHgg==/oat/arm64/base.vdex (com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run+10)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #46 pc 000a59d0  /system/framework/arm64/boot.oat (java.lang.Thread.run+64) (BuildId: f47b0a0246b58cd157b8649b076b12d120290440)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #47 pc 00276af4  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #48 pc 0022ad60  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke+224) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #49 pc 0055e210  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback+1392) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #50 pc 0055dc8c  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc+12) (BuildId: 3595929128022c34a4858f01b77ae233)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #51 pc 00091794  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start +180) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   native: #52 pc 00080e44  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: b28bc0c0cbd24a34ece4340da3a09292)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.android.storage.FileSource.initialize(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.android.storage.FileSource.<init>(FileSource.java:349)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.android.storage.FileSource.getInstance(FileSource.java:95)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - locked <0x0194b94a> (a java.lang.Class<org.maplibre.android.storage.FileSource>)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.android.offline.OfflineManager.<init>(OfflineManager.kt:133)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.android.offline.OfflineManager.<init>(unavailable:0)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.android.offline.OfflineManager$Companion.getInstance(OfflineManager.kt:653)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   - locked <@addr=0x2514cb8> (a org.maplibre.android.offline.OfflineManager$Companion)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at org.maplibre.reactnative.modules.MLRNOfflineModule.setTileCountLimit(MLRNOfflineModule.kt:446)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at com.facebook.jni.NativeRunnable.run(Native method)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Handler.handleCallback(Handler.java:1082)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Handler.dispatchMessage(Handler.java:126)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Looper.loopOnce(Looper.java:295)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at android.os.Looper.loop(Looper.java:398)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769]   at java.lang.Thread.run(Thread.java:1571)
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:769] 
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:777] JNI DETECTED ERROR IN APPLICATION: obj == null
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:777]     in call to GetObjectField
+09-30 15:03:36.412  7864  7889 F brestartuprepro: runtime.cc:777]     from void org.maplibre.android.storage.FileSource.initialize(java.lang.String, java.lang.String, org.maplibre.android.util.TileServerOptions)
+09-30 15:03:36.414  7864  7889 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 7889 (mqt_v_native), pid 7864 (brestartuprepro)

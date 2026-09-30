@@ -1,0 +1,10 @@
+round 1: OK(1s) | library-loaded -> offline-call margin: +24ms
+round 2: OK(1s) | library-loaded -> offline-call margin: +37ms
+round 3: OK(1s) | library-loaded -> offline-call margin: +24ms
+round 4: OK(1s) | library-loaded -> offline-call margin: -78ms
+round 5: OK(1s) | library-loaded -> offline-call margin: +29ms
+round 6: OK(1s) | library-loaded -> offline-call margin: -182ms
+round 7: OK(1s) | library-loaded -> offline-call margin: +8ms
+round 8: OK(1s) | library-loaded -> offline-call margin: +75ms
+round 9: OK(1s) | library-loaded -> offline-call margin: +19ms
+- waiting for device -

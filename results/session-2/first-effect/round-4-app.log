@@ -1,0 +1,124 @@
+09-30 13:49:03.943 14905 14905 I libprocessgroup: Created cgroup /sys/fs/cgroup/apps/uid_10838
+09-30 13:49:03.943 14905 14905 I libprocessgroup: Created cgroup /sys/fs/cgroup/apps/uid_10838/pid_14905
+09-30 13:49:03.953 14905 14905 I Zygote  : Process 14905 created for com.maplibrestartuprepro
+09-30 13:49:03.954 14905 14905 I brestartuprepro: Using generational CollectorTypeCMC GC.
+09-30 13:49:03.978 14905 14905 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-30 13:49:04.007 14905 14905 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+09-30 13:49:04.007 14905 14905 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+09-30 13:49:04.019 14905 14905 D nativeloader: Configuring clns-9 for other apk /data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/lib/arm64:/data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.maplibrestartuprepro
+09-30 13:49:04.030 14905 14905 D ActivityThread: Set OS env TMPDIR to /data/user/0/com.maplibrestartuprepro/cache
+09-30 13:49:04.032 14905 14905 V GraphicsEnvironment: Currently set values for:
+09-30 13:49:04.032 14905 14905 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[com.android.angle]
+09-30 13:49:04.032 14905 14905 V GraphicsEnvironment:   angle_gl_driver_selection_values=[angle]
+09-30 13:49:04.032 14905 14905 V GraphicsEnvironment: com.maplibrestartuprepro is not listed in per-application setting
+09-30 13:49:04.033 14905 14905 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+09-30 13:49:04.034 14905 14905 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+09-30 13:49:04.041 14905 14905 W SoLoader: Initializing SoLoader: 0
+09-30 13:49:04.041 14905 14905 W SoLoader: Recording new base apk path: /data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk
+09-30 13:49:04.041 14905 14905 W SoLoader: Previously recorded 0 base apk paths.
+09-30 13:49:04.041 14905 14905 I SoLoader: Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
+09-30 13:49:04.042 14905 14905 I SoLoader: Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+09-30 13:49:04.042 14905 14905 I SoLoader: Preparing SO source: DirectApkSoSource[root = [/data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk!/lib/arm64-v8a]]
+09-30 13:49:04.043 14905 14905 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/lib/arm64 flags = 0]]
+09-30 13:49:04.043 14905 14905 I SoLoader: init finish: 4 SO sources prepared
+09-30 13:49:04.043 14905 14905 W SoLoader: SoLoader initialized: 8
+09-30 13:49:04.068 14905 14905 D nativeloader: Load /data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk!/lib/arm64-v8a/libc++_shared.so using class loader ns clns-9 (caller=/data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk): ok
+09-30 13:49:04.077 14905 14905 D nativeloader: Load /data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk!/lib/arm64-v8a/libjsi.so using class loader ns clns-9 (caller=/data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk): ok
+09-30 13:49:04.083 14905 14905 D nativeloader: Load /data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk!/lib/arm64-v8a/libfbjni.so using class loader ns clns-9 (caller=/data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk): ok
+09-30 13:49:04.159 14905 14905 D nativeloader: Load /data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk!/lib/arm64-v8a/libreactnative.so using class loader ns clns-9 (caller=/data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk): ok
+09-30 13:49:04.160 14905 14905 D jni_lib_merge: Entering merged library JNI_OnLoad.
+09-30 13:49:04.160 14905 14905 D jni_lib_merge: Preparing 13 pre-merged libs (including stub)
+09-30 13:49:04.160 14905 14905 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x75acd83b5c
+09-30 13:49:04.160 14905 14905 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x75ace5b3d0
+09-30 13:49:04.160 14905 14905 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x75ace7464c
+09-30 13:49:04.160 14905 14905 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x75aceb61d8
+09-30 13:49:04.160 14905 14905 D jni_lib_merge: Preparing to register libreact_tracingjni_so.  onload_func: 0x75acf9d4cc
+09-30 13:49:04.160 14905 14905 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x75acfa2760
+09-30 13:49:04.160 14905 14905 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x75acfae7f4
+09-30 13:49:04.160 14905 14905 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x75acfb1838
+09-30 13:49:04.160 14905 14905 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x75acfd6f50
+09-30 13:49:04.160 14905 14905 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x75ad06cf48
+09-30 13:49:04.160 14905 14905 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x75ad07393c
+09-30 13:49:04.160 14905 14905 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x75ad07b3b8
+09-30 13:49:04.160 14905 14905 D jni_lib_merge: About to register 12 actual methods.
+09-30 13:49:04.172 14905 14905 D nativeloader: Load /data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk!/lib/arm64-v8a/libreact_codegen_safeareacontext.so using class loader ns clns-9 (caller=/data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk): ok
+09-30 13:49:04.191 14905 14905 D nativeloader: Load /data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk!/lib/arm64-v8a/libappmodules.so using class loader ns clns-9 (caller=/data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk): ok
+09-30 13:49:04.195 14905 14926 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+09-30 13:49:04.199 14905 14926 D vulkan  : searching for layers in '/data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/lib/arm64'
+09-30 13:49:04.200 14905 14926 D vulkan  : searching for layers in '/data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk!/lib/arm64-v8a'
+09-30 13:49:04.211 14905 14905 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+09-30 13:49:04.226 14905 14905 D CompatChangeReporter: Compat change id reported: 377864165; UID 10838; state: ENABLED
+09-30 13:49:04.242 14905 14905 D nativeloader: Load /data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk!/lib/arm64-v8a/libhermesvm.so using class loader ns clns-9 (caller=/data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk): ok
+09-30 13:49:04.244 14905 14905 D nativeloader: Load /data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk!/lib/arm64-v8a/libhermestooling.so using class loader ns clns-9 (caller=/data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk): ok
+09-30 13:49:04.244 14905 14905 D jni_lib_merge: Entering merged library JNI_OnLoad.
+09-30 13:49:04.244 14905 14905 D jni_lib_merge: Preparing 4 pre-merged libs (including stub)
+09-30 13:49:04.244 14905 14905 D jni_lib_merge: Preparing to register libhermes_executor_so.  onload_func: 0x764f76ceec
+09-30 13:49:04.244 14905 14905 D jni_lib_merge: Preparing to register libhermesinstancejni_so.  onload_func: 0x764f77469c
+09-30 13:49:04.244 14905 14905 D jni_lib_merge: Preparing to register libjsijniprofiler_so.  onload_func: 0x764f774f44
+09-30 13:49:04.244 14905 14905 D jni_lib_merge: About to register 3 actual methods.
+09-30 13:49:04.262 14905 14905 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+09-30 13:49:04.262 14905 14905 W unknown:BridgelessReact: ReactHost{0}.attachSurface(surfaceId = 0)
+09-30 13:49:04.262 14905 14936 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+09-30 13:49:04.263 14905 14936 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Start
+09-30 13:49:04.263 14905 14936 W unknown:BridgelessReact: ReactHost{0}.getJSBundleLoader()
+09-30 13:49:04.263 14905 14936 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Creating BridgelessReactContext
+09-30 13:49:04.263 14905 14936 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Creating ReactInstance
+09-30 13:49:04.266 14905 14905 I ContentCaptureHelper: Setting logging level to OFF
+09-30 13:49:04.276 14905 14905 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+09-30 13:49:04.276 14905 14905 W unknown:BridgelessReact: ReactHost{0}.ReactContext.onHostResume()
+09-30 13:49:04.294 14905 14905 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@bd47bff
+09-30 13:49:04.294 14905 14905 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1@5f85815
+09-30 13:49:04.294 14905 14937 D WindowOnBackDispatcher: setOnBackInvokedCallbackInfo: androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1@5f85815
+09-30 13:49:04.294 14905 14905 D VRI[MainActivity]: WindowInsets changed: 1080x2400 statusBars:[0,136,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,168,0,84] 
+09-30 13:49:04.294 14905 14937 D WindowOnBackDispatcher: setOnBackInvokedCallbackInfo: androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1@5f85815
+09-30 13:49:04.299 14905 14905 I Surface : Creating surface for consumer unnamed-14905-0 with slotExpansion=1 for 64 slots
+09-30 13:49:04.299 14905 14905 I Surface : Creating surface for consumer VRI[MainActivity]#0(BLAST Consumer)0 with slotExpansion=1 for 64 slots
+09-30 13:49:04.371 14905 14936 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Loading JS Bundle
+09-30 13:49:04.371 14905 14905 D InsetsController: hide(ime())
+09-30 13:49:04.371 14905 14905 I ImeTracker: com.maplibrestartuprepro:0ee512f4: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-30 13:49:04.371 14905 14936 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): DevSupportManager.onNewReactContextCreated()
+09-30 13:49:04.371 14905 14936 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+09-30 13:49:04.372 14905 14905 W unknown:BridgelessReact: ReactHost{0}.ReactContext.onHostResume()
+09-30 13:49:04.372 14905 14905 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Executing ReactInstanceEventListeners
+09-30 13:49:04.415 14905 14938 I ReactNativeJS: Running "MapLibreStartupRepro"
+09-30 13:49:04.432 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+09-30 13:49:04.440 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+09-30 13:49:04.445 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.sources.geojsonsource.MLRNGeoJSONSourceManager
+09-30 13:49:04.447 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.annotations.markerview.MLRNMarkerViewManager
+09-30 13:49:04.447 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.sources.imagesource.MLRNImageSourceManager
+09-30 13:49:04.447 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.sources.tilesources.rastersource.MLRNRasterSourceManager
+09-30 13:49:04.448 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.camera.MLRNCameraManager
+09-30 13:49:04.448 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.sources.tilesources.vectorsource.MLRNVectorSourceManager
+09-30 13:49:04.448 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.mapview.MLRNMapViewManager
+09-30 13:49:04.449 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.mapview.MLRNMapViewManager$MapShadowNode
+09-30 13:49:04.449 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.layer.MLRNLayerManager
+09-30 13:49:04.450 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+09-30 13:49:04.450 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+09-30 13:49:04.450 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.mapview.MLRNAndroidTextureMapViewManager
+09-30 13:49:04.451 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.sources.tilesources.rasterdemsource.MLRNRasterDEMSourceManager
+09-30 13:49:04.451 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.location.MLRNNativeUserLocationManager
+09-30 13:49:04.451 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.annotations.pointannotation.MLRNPointAnnotationManager
+09-30 13:49:04.452 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.images.MLRNImagesManager
+09-30 13:49:04.452 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.maplibre.reactnative.components.annotations.callout.MLRNCalloutManager
+09-30 13:49:04.463 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewManager
+09-30 13:49:04.464 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+09-30 13:49:04.465 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+09-30 13:49:04.465 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+09-30 13:49:04.467 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+09-30 13:49:04.468 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+09-30 13:49:04.469 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+09-30 13:49:04.470 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+09-30 13:49:04.471 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+09-30 13:49:04.472 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+09-30 13:49:04.472 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+09-30 13:49:04.473 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+09-30 13:49:04.474 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+09-30 13:49:04.475 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+09-30 13:49:04.477 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.SelectableTextViewManager
+09-30 13:49:04.478 14905 14938 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.virtual.view.ReactVirtualViewManager
+09-30 13:49:04.519 14905 14938 I HWUI    : Using FreeType backend (prop=Auto)
+09-30 13:49:04.537 14905 14905 D nativeloader: Load /data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk!/lib/arm64-v8a/libmaplibre.so using class loader ns clns-9 (caller=/data/app/~~CVEuBDWM0j-Zd4UPTmrrgg==/com.maplibrestartuprepro-npNkfvFNio5JdrtS5E0VaQ==/base.apk!classes3.dex): ok
+09-30 13:49:04.567 14905 14938 I ReactNativeJS: [repro] first effect: calling OfflineManager
+09-30 13:49:29.758 14905 14908 I brestartuprepro: Thread[2,tid=14908,WaitingInMainSignalCatcherLoop,Thread*=0xb4000077092f77b0,peer=0x2041020,"Signal Catcher"]: reacting to signal 3
+09-30 13:49:29.758 14905 14908 I brestartuprepro: 
+09-30 13:49:30.045 14905 14908 I brestartuprepro: Wrote stack traces to tombstoned

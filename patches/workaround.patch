@@ -1,0 +1,32 @@
+--- a/android/app/src/main/java/com/maplibrestartuprepro/MainApplication.kt
++++ b/android/app/src/main/java/com/maplibrestartuprepro/MainApplication.kt
+@@ -6,6 +6,7 @@
+ import com.facebook.react.ReactHost
+ import com.facebook.react.ReactNativeApplicationEntryPoint.loadReactNative
+ import com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost
++import org.maplibre.android.MapLibre
+ 
+ class MainApplication : Application(), ReactApplication {
+ 
+@@ -22,6 +23,7 @@
+ 
+   override fun onCreate() {
+     super.onCreate()
++    MapLibre.getInstance(this)
+     loadReactNative(this)
+   }
+ }
+--- a/android/app/build.gradle
++++ b/android/app/build.gradle
+@@ -111,6 +111,11 @@
+     // The version of react-native is set by the React Native Gradle Plugin
+     implementation("com.facebook.react:react-android")
+ 
++    // Workaround: MainApplication calls MapLibre.getInstance itself, so the app needs
++    // MapLibre on its own classpath (the wrapper declares it as `implementation`).
++    // Use the same variant and version as the wrapper's nativeVariant / nativeVersion.
++    implementation("org.maplibre.gl:android-sdk-opengl:13.6.1")
++
+     if (hermesEnabled.toBoolean()) {
+         implementation("com.facebook.react:hermes-android")
+     } else {

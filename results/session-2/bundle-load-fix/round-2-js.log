@@ -1,0 +1,5 @@
+--------- beginning of main
+09-30 14:10:10.945 29254 29277 I ReactNativeJS: [repro] bundle load: calling OfflineManager
+09-30 14:10:10.946 29254 29277 I ReactNativeJS: Running "MapLibreStartupRepro"
+09-30 14:10:11.007 29254 29277 I ReactNativeJS: [repro] first effect: calling OfflineManager
+09-30 14:10:11.009 29254 29277 I ReactNativeJS: [repro] offline configured

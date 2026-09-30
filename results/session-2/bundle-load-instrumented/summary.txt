@@ -1,0 +1,13 @@
+round 1: CRASH [org.maplibre.android.exceptions.MapLibreConfigurationException: round-1-crash.txt] | library-loaded -> offline-call margin: -99ms
+round 2: CRASH [org.maplibre.android.exceptions.MapLibreConfigurationException: round-2-crash.txt] | library-loaded -> offline-call margin: -42ms
+round 3: CRASH [org.maplibre.android.exceptions.MapLibreConfigurationException: round-3-crash.txt] | library-loaded -> offline-call margin: -19ms
+round 4: CRASH [org.maplibre.android.exceptions.MapLibreConfigurationException: round-4-crash.txt] | library-loaded -> offline-call margin: -14ms
+round 5: CRASH [org.maplibre.android.exceptions.MapLibreConfigurationException: round-5-crash.txt] | library-loaded -> offline-call margin: -17ms
+round 6: CRASH [org.maplibre.android.exceptions.MapLibreConfigurationException: round-6-crash.txt] | library-loaded -> offline-call margin: -13ms
+round 7: NO-ANSWER [no crash, no ANR, no offline reply in 15s] | library-loaded -> offline-call margin: -24ms
+round 8: CRASH [org.maplibre.android.exceptions.MapLibreConfigurationException: round-8-crash.txt] | library-loaded -> offline-call margin: -11ms
+round 9: CRASH [org.maplibre.android.exceptions.MapLibreConfigurationException: round-9-crash.txt] | library-loaded -> offline-call margin: -11ms
+* daemon still not running
+- waiting for device -
+round 10: CRASH [org.maplibre.android.exceptions.MapLibreConfigurationException: round-10-crash.txt] | library-loaded -> offline-call margin: -16ms
+SUMMARY: ok=0 crash=9 hang/no-answer=1 of 10

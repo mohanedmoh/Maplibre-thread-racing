@@ -1,0 +1,3 @@
+09-30 14:05:24.123 18469 18469 D nativeloader: Load /data/app/~~kGLLtxA3h7kpQxatM7Bfyg==/com.maplibrestartuprepro-Byz2ppY0pFG2xDa0pHatEQ==/base.apk!/lib/arm64-v8a/libmaplibre.so using class loader ns clns-9 (caller=/data/app/~~kGLLtxA3h7kpQxatM7Bfyg==/com.maplibrestartuprepro-Byz2ppY0pFG2xDa0pHatEQ==/base.apk!classes3.dex): ok
+09-30 14:05:24.408 18469 18515 I ReactNativeJS: [repro] bundle load: calling OfflineManager
+09-30 14:05:24.520 18469 18515 I ReactNativeJS: [repro] first effect: calling OfflineManager

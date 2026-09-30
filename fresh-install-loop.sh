@@ -13,6 +13,12 @@
 #   CRASH  the system logged am_crash for the app
 #   HANG   neither happened; a tap then raised the input ANR. The thread dump
 #          is read from dropbox and saved, with other apps' entries removed.
+#   NO-ANSWER  neither happened and the tap raised no ANR either. Read
+#          round-N-app.log: in our runs this was a silent deadlock, or a crash
+#          that React Native killed (SIGKILL) before the system logged am_crash.
+#
+# A native abort (SIGABRT) also counts as CRASH, but round-N-crash.txt stays
+# empty because it only holds Java exceptions; the abort is in round-N-app.log.
 #
 # Set SERIAL to pick a device when more than one is attached.
 set -u
@@ -74,15 +80,19 @@ for r in $(seq 1 "$ROUNDS"); do
 
   case $verdict in OK*) ok=$((ok + 1));; CRASH) crash=$((crash + 1));; *) hang=$((hang + 1));; esac
   a logcat -d -s ReactNativeJS:I > "$OUT/round-$r-js.log"
+  # Instrumented builds (patches/instrumentation.patch) log REPRO lines, and a
+  # REPRO_DUMP of every thread if the offline promise has not settled after 6 s.
+  a logcat -d -v threadtime -s REPRO:I REPRO_DUMP:I | grep ' REPRO' > "$OUT/round-$r-repro.log" || rm -f "$OUT/round-$r-repro.log"
   case $verdict in OK*) ;; *)
     # Keep the app's own log lines for anything that is not a clean start.
     apppid=$(a logcat -b events -d | grep 'am_proc_start' | grep "$PKG" | tail -1 | sed -E 's/.*am_proc_start: \[[0-9]+,([0-9]+),.*/\1/')
     [ -n "$apppid" ] && a logcat -d -v threadtime | grep -E "^[0-9-]+ [0-9:.]+ +$apppid " > "$OUT/round-$r-app.log"
   ;; esac
 
-  # How close was it? Time from libmaplibre.so finishing its load on the main
-  # thread to the first offline call. Negative, or no library line at all, means
-  # the offline call got there first.
+  # How close was it? Time from the nativeloader line for libmaplibre.so to the
+  # first offline call. Negative, or no library line at all, means the offline
+  # call got there first. Positive does not mean safe: the line is logged when
+  # dlopen returns, before JNI_OnLoad and the rest of MapLibre.getInstance run.
   a logcat -d -v threadtime | grep -E 'libmaplibre\.so|\[repro\] .*calling OfflineManager' > "$OUT/round-$r-timing.log"
   margin=$(awk '
     function ms(t,  p) { split(t, p, /[:.]/); return ((p[1] * 60 + p[2]) * 60 + p[3]) * 1000 + p[4] }

@@ -1,0 +1,13 @@
+round 1: OK(1s) | library-loaded -> offline-call margin: -12ms
+round 2: OK(1s) | library-loaded -> offline-call margin: -38ms
+round 3: OK(1s) | library-loaded -> offline-call margin: -5ms
+round 4: OK(1s) | library-loaded -> offline-call margin: -75ms
+round 5: OK(1s) | library-loaded -> offline-call margin: -104ms
+round 6: OK(1s) | library-loaded -> offline-call margin: -180ms
+round 7: OK(1s) | library-loaded -> offline-call margin: +89ms
+round 8: OK(1s) | library-loaded -> offline-call margin: +70ms
+logcat: failed to clear the 'main' log.
+round 9: OK(1s) | library-loaded -> offline-call margin: -48ms
+round 10: OK(1s) | library-loaded -> offline-call margin: +55ms
+round 11: OK(1s) | library-loaded -> offline-call margin: -173ms
+SUMMARY: ok=11 crash=0 hang/no-answer=0 of 11

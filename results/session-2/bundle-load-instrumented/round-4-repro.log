@@ -1,0 +1,5 @@
+--------- beginning of main
+09-30 15:35:07.351 32292 32317 I REPRO   : OfflineModule.initialize() on mqt_v_js: posting runMigrations to the main looper
+09-30 15:35:07.357 32292 32318 I REPRO   : MapViewModule.initialize() on mqt_v_native: posting MapLibre.getInstance to the UI queue
+09-30 15:35:07.357 32292 32318 I REPRO   : setTileCountLimit on mqt_v_native
+09-30 15:35:07.375 32292 32292 I REPRO   : runMigrations START on main

@@ -1,0 +1,22 @@
+--------- beginning of crash
+09-30 15:35:22.885   531   531 E AndroidRuntime: FATAL EXCEPTION: main
+09-30 15:35:22.885   531   531 E AndroidRuntime: Process: com.maplibrestartuprepro, PID: 531
+09-30 15:35:22.885   531   531 E AndroidRuntime: org.maplibre.android.exceptions.MapLibreConfigurationException: 
+09-30 15:35:22.885   531   531 E AndroidRuntime: Using MapView requires calling MapLibre.getInstance(Context context, String apiKey, WellKnownTileServer wellKnownTileServer) before inflating or creating the view.
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at org.maplibre.android.MapLibre.validateMapLibre(MapLibre.java:261)
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at org.maplibre.android.MapLibre.getTileServerOptions(MapLibre.java:164)
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at org.maplibre.android.storage.FileSource.<init>(FileSource.java:348)
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at org.maplibre.android.storage.FileSource.getInstance(FileSource.java:95)
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at org.maplibre.reactnative.modules.MLRNOfflineModule.activateFileSource(MLRNOfflineModule.kt:684)
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at org.maplibre.reactnative.modules.MLRNOfflineModule.runMigrations(MLRNOfflineModule.kt:475)
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at org.maplibre.reactnative.modules.MLRNOfflineModule.initialize$lambda$1(MLRNOfflineModule.kt:71)
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at org.maplibre.reactnative.modules.MLRNOfflineModule$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:1082)
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:126)
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:295)
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:398)
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9569)
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:575)
+09-30 15:35:22.885   531   531 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:918)

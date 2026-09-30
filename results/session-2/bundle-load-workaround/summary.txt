@@ -1,0 +1,25 @@
+round 1: OK(1s) | library-loaded -> offline-call margin: +92ms
+round 2: OK(1s) | library-loaded -> offline-call margin: +102ms
+round 3: OK(1s) | library-loaded -> offline-call margin: +285ms
+round 4: OK(1s) | library-loaded -> offline-call margin: +89ms
+round 5: OK(1s) | library-loaded -> offline-call margin: +105ms
+round 6: OK(1s) | library-loaded -> offline-call margin: +93ms
+round 7: OK(1s) | library-loaded -> offline-call margin: +81ms
+round 8: OK(1s) | library-loaded -> offline-call margin: +92ms
+round 9: OK(1s) | library-loaded -> offline-call margin: +92ms
+round 10: OK(1s) | library-loaded -> offline-call margin: +95ms
+round 11: OK(1s) | library-loaded -> offline-call margin: +82ms
+round 12: OK(1s) | library-loaded -> offline-call margin: +99ms
+round 13: OK(1s) | library-loaded -> offline-call margin: +86ms
+round 14: OK(1s) | library-loaded -> offline-call margin: +143ms
+round 15: OK(1s) | library-loaded -> offline-call margin: +101ms
+* daemon not running; starting now at tcp:5037
+could not read ok from ADB Server
+* failed to start daemon
+adb.exe: cannot connect to daemon
+round 16: OK(1s) | library-loaded -> offline-call margin: +94ms
+round 17: OK(1s) | library-loaded -> offline-call margin: +89ms
+round 18: OK(1s) | library-loaded -> offline-call margin: +80ms
+round 19: OK(1s) | library-loaded -> offline-call margin: +79ms
+round 20: OK(1s) | library-loaded -> offline-call margin: +87ms
+SUMMARY: ok=20 crash=0 hang/no-answer=0 of 20

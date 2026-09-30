@@ -1,0 +1,36 @@
+round 1: OK(1s) | library-loaded -> offline-call margin: +17ms
+round 2: NO-ANSWER [no crash, no ANR, no offline reply in 15s] | library-loaded -> offline-call margin: +5ms
+round 3: OK(1s) | library-loaded -> offline-call margin: +29ms
+round 4: HANG [LibraryLoader in thread dump: round-4-anr.txt] | library-loaded -> offline-call margin: +30ms
+round 5: OK(1s) | library-loaded -> offline-call margin: +56ms
+* daemon not running; starting now at tcp:5037
+could not read ok from ADB Server
+* failed to start daemon
+- waiting for device -
+error: cannot connect to daemon
+round 6: HANG [LibraryLoader in thread dump: round-6-anr.txt] | library-loaded -> offline-call margin: -39ms
+round 7: OK(1s) | library-loaded -> offline-call margin: +58ms
+round 8: OK(1s) | library-loaded -> offline-call margin: +94ms
+round 9: OK(1s) | library-loaded -> offline-call margin: +14ms
+round 10: OK(1s) | library-loaded -> offline-call margin: +49ms
+round 11: CRASH [org.maplibre.android.exceptions.MapLibreConfigurationException: round-11-crash.txt] | library-loaded -> offline-call margin: -6ms
+round 12: OK(1s) | library-loaded -> offline-call margin: +54ms
+round 13: OK(1s) | library-loaded -> offline-call margin: +50ms
+round 14: OK(1s) | library-loaded -> offline-call margin: +48ms
+round 15: OK(1s) | library-loaded -> offline-call margin: +54ms
+round 16: OK(1s) | library-loaded -> offline-call margin: +15ms
+round 17: OK(1s) | library-loaded -> offline-call margin: +17ms
+round 18: OK(1s) | library-loaded -> offline-call margin: +30ms
+round 19: OK(1s) | library-loaded -> offline-call margin: +76ms
+round 20: OK(1s) | library-loaded -> offline-call margin: +24ms
+round 21: OK(1s) | library-loaded -> offline-call margin: +181ms
+round 22: OK(1s) | library-loaded -> offline-call margin: +99ms
+round 23: NO-ANSWER [no crash, no ANR, no offline reply in 15s] | library-loaded -> offline-call margin: -84ms
+round 24: OK(1s) | library-loaded -> offline-call margin: +107ms
+round 25: HANG [LibraryLoader in thread dump: round-25-anr.txt] | library-loaded -> offline-call margin: -63ms
+round 26: OK(1s) | library-loaded -> offline-call margin: +88ms
+round 27: OK(1s) | library-loaded -> offline-call margin: +56ms
+round 28: OK(1s) | library-loaded -> offline-call margin: +64ms
+round 29: OK(1s) | library-loaded -> offline-call margin: +100ms
+round 30: OK(1s) | library-loaded -> offline-call margin: +81ms
+SUMMARY: ok=24 crash=1 hang/no-answer=5 of 30

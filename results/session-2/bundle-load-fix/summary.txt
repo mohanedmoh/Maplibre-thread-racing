@@ -1,0 +1,21 @@
+round 1: OK(1s) | library-loaded -> offline-call margin: -22ms
+round 2: OK(1s) | library-loaded -> offline-call margin: -25ms
+round 3: OK(1s) | library-loaded -> offline-call margin: -29ms
+round 4: OK(1s) | library-loaded -> offline-call margin: -56ms
+round 5: OK(1s) | library-loaded -> offline-call margin: -39ms
+round 6: OK(1s) | library-loaded -> offline-call margin: -25ms
+round 7: OK(1s) | library-loaded -> offline-call margin: -98ms
+round 8: OK(1s) | library-loaded -> offline-call margin: -32ms
+round 9: OK(1s) | library-loaded -> offline-call margin: -27ms
+round 10: OK(1s) | library-loaded -> offline-call margin: -17ms
+round 11: OK(1s) | library-loaded -> offline-call margin: -36ms
+round 12: OK(1s) | library-loaded -> offline-call margin: -28ms
+round 13: OK(1s) | library-loaded -> offline-call margin: -17ms
+round 14: OK(1s) | library-loaded -> offline-call margin: -23ms
+round 15: OK(1s) | library-loaded -> offline-call margin: -27ms
+round 16: OK(1s) | library-loaded -> offline-call margin: -27ms
+round 17: OK(1s) | library-loaded -> offline-call margin: -28ms
+round 18: OK(1s) | library-loaded -> offline-call margin: -55ms
+round 19: OK(1s) | library-loaded -> offline-call margin: -54ms
+round 20: OK(1s) | library-loaded -> offline-call margin: -192ms
+SUMMARY: ok=20 crash=0 hang/no-answer=0 of 20
